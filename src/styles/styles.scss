@@ -1,0 +1,6 @@
+@import './base/_settings'; // переменные от сюда теперь будут доступны в области видимости всех импортированных далее файлов
+@import './base/_base';
+@import './components/_header';
+@import './components/_container';
+
+//scss/sass - препроцессор css для всяких колдунчеств с css типа

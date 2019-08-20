@@ -1,6 +1,10 @@
 import React from 'react'
 import reactDOM from 'react-dom'
 import IndecisionApp from "./components/IndecisionApp";
+//'reset' - штука, которая сносит дефолтные стили браузера, которые у всех браузеров разные
+import 'normalize.css/normalize.css'
+//гружу стили, а вебпак знает, что с ними делать, т.к. я ему это сказал в конфиге, а конфигу я все сказал в конфиге конфига, которому я.....
+import './styles/styles.scss'
 
 const Layout = (props) => {
     return (

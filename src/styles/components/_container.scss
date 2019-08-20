@@ -1,0 +1,6 @@
+//делаю так, чтобы контент был по середине, кроме черной хрени в хэдере
+.container {
+  max-width: 60rem;
+  margin: 0 auto;
+  padding: 0 $m-size;
+}
